@@ -28,6 +28,7 @@ class CatDetailView extends StatelessWidget {
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(65),
         child: CatDetailAppbarWidget(
+          catBreedName: cat.name,
           onPressBack: () => context.pop(context),
         ),
       ),

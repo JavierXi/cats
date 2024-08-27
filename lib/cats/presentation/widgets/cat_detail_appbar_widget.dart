@@ -28,6 +28,7 @@ class CatDetailAppbarWidget extends StatelessWidget {
         catBreedName ?? "Unknown",
         style: AppStyles.title,
       ),
+      centerTitle: true,
     );
   }
 }
